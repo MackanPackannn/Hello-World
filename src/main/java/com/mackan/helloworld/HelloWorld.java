@@ -22,7 +22,7 @@ public final class HelloWorld extends JavaPlugin implements Listener {
 
     @EventHandler
     public void ModeSwitch (PlayerGameModeChangeEvent event) {
-        event.getPlayer().sendMessage(ChatColor.BLUE + "Haha, du bytte gamemode!");
+        event.getPlayer().sendMessage(ChatColor.AQUA + "Haha, du bytte gamemode!");
     }
 
     @EventHandler
